@@ -16,6 +16,7 @@ import android.location.Location;
 import android.media.ExifInterface;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
+import android.os.Build;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Images;
 import android.provider.MediaStore.Video;
@@ -32,8 +33,6 @@ import java.io.IOException;
 import cn.forward.androids.Image.ImageCache;
 
 public class ImageUtils {
-
-
     private static final Bitmap.Config BITMAP_CONFIG = Bitmap.Config.ARGB_8888;
     private static final int COLORDRAWABLE_DIMENSION = 2;
 
@@ -68,11 +67,15 @@ public class ImageUtils {
         ContentValues values = new ContentValues(9);
         values.put(Images.Media.TITLE, title);
         values.put(Images.Media.DISPLAY_NAME, filename);
-        values.put(Images.Media.DATE_TAKEN, dateTaken);
         values.put(Images.Media.MIME_TYPE, "image/jpeg");
-        values.put(Images.Media.ORIENTATION, degree[0]);
-        values.put(Images.Media.DATA, file.getAbsolutePath());
         values.put(Images.Media.SIZE, size);
+
+        ///[ImageUtils#addImage()#适配Android Q (Api 29)]
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            values.put(Images.Media.DATE_TAKEN, dateTaken);
+            values.put(Images.Media.ORIENTATION, degree[0]);
+        }
+        values.put(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q ? Images.Media.RELATIVE_PATH : Images.Media.DATA, file.getAbsolutePath());
 
         if (location != null) {
             values.put(Images.Media.LATITUDE, location.getLatitude());
