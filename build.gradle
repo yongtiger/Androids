@@ -8,8 +8,8 @@ buildscript {
         ]
 
         release = [
-                versionName: "10.0.0",   ///v10.0.0#AnroidX and [ImageUtils#addImage()#适配Android Q (Api 29)]
-                versionCode: 100000
+                versionName: "10.0.2",   ///v10.0.2#AnroidX and [ImageUtils#addImage()#适配Android Q (Api 29)]
+                versionCode: 100002
         ]
     }
 
