@@ -8,8 +8,8 @@ buildscript {
         ]
 
         release = [
-                versionName: "10.0.3",   ///v10.0.3#AnroidX and [ImageUtils#addImage()#适配Android Q (Api 29)]
-                versionCode: 100003
+                versionName: "10.0.4",   ///v10.0.4
+                versionCode: 100004
         ]
     }
 
@@ -18,7 +18,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.android.tools.build:gradle:4.1.2'
 
         ///[jitpack#publish]https://jitpack.io/docs/ANDROID/
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
