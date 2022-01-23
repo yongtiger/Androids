@@ -30,7 +30,7 @@
                 <cn.forward.androids.views.ShapeImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/world_map"
                     app:siv_round_radius="25dp"
                     app:siv_shape="rect" />
@@ -38,7 +38,7 @@
                 <cn.forward.androids.views.ShapeImageView
                     android:layout_width="80dp"
                     android:layout_height="110dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/world_map"
                     app:siv_border_color="#ffffff"
                     app:siv_border_size="0dp"
@@ -49,7 +49,7 @@
             <cn.forward.androids.views.ShapeImageView
                 android:layout_width="220dp"
                 android:layout_height="110dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="#000"
                 android:clickable="true"
@@ -64,7 +64,7 @@
             <cn.forward.androids.views.ShapeImageView
                 android:layout_width="220dp"
                 android:layout_height="110dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="#000000"
                 android:src="@drawable/world_map"
@@ -78,7 +78,7 @@
             <cn.forward.androids.views.ShapeImageView
                 android:layout_width="220dp"
                 android:layout_height="110dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="#000"
                 android:clickable="true"

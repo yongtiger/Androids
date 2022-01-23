@@ -6,8 +6,8 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:paddingBottom="29dp"
-    android:paddingLeft="52dp"
-    android:paddingRight="52dp"
+    android:paddingStart="52dp"
+    android:paddingEnd="52dp"
     android:paddingTop="29dp" >
 
     <!-- row 1 -->

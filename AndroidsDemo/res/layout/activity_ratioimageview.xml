@@ -21,8 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingLeft="24dp"
-                android:paddingRight="24dp">
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp">
 
                 <cn.forward.androids.views.RatioImageView
                     android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:gravity="left"
                     android:text="宽度100dp,高度适应图片比例"
                     android:textColor="#000000"
@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:gravity="left"
                     android:text="高度100dp,宽度适应图片比例"
                     android:textColor="#000000"
@@ -135,7 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:gravity="left"
                     android:text="高度100dp, 宽/高=1.8"
                     android:textColor="#000000"
@@ -160,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:gravity="left"
                     android:text="宽度100dp, 高/宽=1.5"
                     android:textColor="#000000"

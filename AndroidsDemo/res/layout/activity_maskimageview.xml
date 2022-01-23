@@ -95,7 +95,7 @@
                 <cn.forward.androids.views.MaskImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:background="@drawable/bg"
                     android:clickable="true"
                     android:scaleType="fitXY"
@@ -135,7 +135,7 @@
                 <cn.forward.androids.views.MaskImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:background="@drawable/bg"
                     android:clickable="true"
                     android:scaleType="fitXY"
@@ -180,7 +180,7 @@
                     android:id="@+id/stextview"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:background="#00ff00"
                     android:clickable="true"
                     android:gravity="center"
@@ -200,7 +200,7 @@
                 <cn.forward.androids.views.SFrameLayout
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:background="@drawable/bg"
                     android:clickable="true"
                     android:gravity="center"
@@ -213,7 +213,7 @@
                 <cn.forward.androids.views.STextView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:clickable="true"
                     android:enabled="false"
                     android:gravity="center"
@@ -244,7 +244,7 @@
                 <cn.forward.androids.views.STextView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:clickable="true"
                     android:gravity="center"
                     android:text="无约束水波纹"
@@ -254,7 +254,7 @@
                 <cn.forward.androids.views.STextView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:clickable="true"
                     android:gravity="center"
                     android:text="圆形约束水波纹"
@@ -266,7 +266,7 @@
                 <cn.forward.androids.views.STextView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:clickable="true"
                     android:gravity="center"
                     android:text="图片水波纹"
